@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite2" verbose="1" >
+    <test name="parsers">
+        <groups>
+            <run>
+                <include name="shop">
+
+                </include>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="shop.TestShop"/>
+        </classes>
+
+    </test>
+</suite>
+
